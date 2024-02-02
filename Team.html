@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='ma.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src='main.js'></script>
+    <style>
+      .parent{
+        padding: 2px;
+        background-color: rgb(221, 230, 248);
+        height: 100vh;
+        width: 100%;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        border-radius: 10px;
+        flex-wrap: wrap;
+      }
+      .cl{
+        background-color: blueviolet;
+        border: 3px solid rgb(170, 163, 163);
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        
+      }
+      .ch1{
+          grid-column-start: 3;
+          grid-column-end: 12;
+          grid-row-start: 1;
+          grid-row-end: 2;
+          background-color: rgb(240, 247, 249);
+          color:rgb(23, 21, 23);
+          display: flex;
+          padding:15px;
+          border-radius: 10px;
+      }
+      .ch2{
+          grid-column-start: 1;
+          grid-column-end: 3;
+          grid-row-start: 1;
+          grid-row-end: 10;
+          background-color: rgb(99, 24, 86);
+          color:rgb(247, 247, 243);
+          display: block;
+          margin-right: 5% ;
+          padding:20px;
+          gap: 20%;
+          border: 10px;
+      }
+      .ch3{
+          grid-column-start: 3;
+          grid-column-end: 12;
+          grid-row-start:2 ;
+          grid-row-end: 5;
+          background-color: rgb(199, 187, 215);
+          color:rgb(126, 181, 50);
+          display: flex;
+          justify-content: space-between;
+          padding:20px;
+          border-radius: 10px;
+      }
+      .ch3 button{
+        border: 1px dashed rgb(139, 219, 222);
+      }
+      .ch4{
+          grid-column-start: 3;
+          grid-column-end: 12;
+          grid-row-start: 5;
+          grid-row-end: 10;
+          background-color: rgb(223, 160, 201);
+          color:rgb(107, 105, 153);
+          display: block;
+          padding:10px;
+          border-radius: 10px;
+      }
+      
+      .cj{
+        display: block;
+      }
+      
+      img{
+        border-radius: 50px;
+        margin-top: 0%;
+      }
+      h5{
+        color: rgb(100, 96, 96) ;
+      }
+      h1{
+        color:rgb(104, 23, 100)
+      }
+    .lis{
+      border: 1px solid rgb(116, 112, 112);
+      background-color: aliceblue;
+      padding: 2px;
+    }
+    .im{
+      border-radius: 100%;
+    }
+    .cin{
+      color: aqua;
+    }
+    .ch7{
+      background-color: aliceblue;
+      display: flex;
+      padding: 20px;
+      gap: 10px;
+      
+
+    }
+    .ch7 .ch71{
+      border-radius: 5%;
+      border: 1px solid black;
+      background-color: rgb(214, 79, 212);
+      color: rgb(47, 42, 42);
+      padding: 40px;
+      
+    }
+    .ch71 i{
+      font-size: xx-large;
+      padding: 30px;
+      height: 10px;
+    }
+    .ch2 label i{
+      
+    }
+   
+   
+   @media screen and(max-width:768px) {
+    .parent .ch71{
+      grid-column-start: 3;
+          grid-column-end: 6;
+          grid-row-start: 5;
+          grid-row-end: 10;
+          background-color: rgb(223, 160, 201);
+          color:rgb(86, 80, 195);
+          display: block;
+          padding:10px;
+          border-radius: 10px;
+          background-color: rgb(240, 247, 249);
+          color:rgb(23, 21, 23);
+          display: flex;
+          padding:15px;
+          border-radius: 10px;
+    }
+   }
+   body  input{
+    display: none;
+   }
+   table, td, th {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+  height: 40vh;
+  border-collapse: collapse;
+}
+a{
+        color: rgb(152, 156, 160);
+      }
+    </style>
+</head>
+<body>
+  <input  type="checkbox" id="dom">
+    <div class="parent">
+        <div class="ch1 cl">
+          <img src="aman.jpeg" height="100px" width="100px">
+          <div>
+            <h1>Aman Kumar Patel</h1>
+            <p>Mern Stack Developer</p>
+            <br>
+            <h5>About</h5>
+            <br>
+            <P>My short-term goal I got the job in reputed company</P>
+            <p>My Long-term goal is main piler of that company</p>
+          </div>
+          <div>
+            <br>
+            <h5>Higher Education</h5>
+            <p>Bachelor of Technology</p>
+           <br>
+           <h5>Post Greaduation</h5>
+           <p>12 pass With 8.2cgpa</p>
+          </div>
+          <div>
+            <ul style="list-style-type: none;">
+              <li class="lis"><i class="fa-brands fa-linkedin"></i></li>&nbsp;&nbsp;
+              <li class="lis"><i class="fa-brands fa-github"></i></li>&nbsp;&nbsp;
+              <li class="lis"><i class="fa-regular fa-eye"></i></li>&nbsp;&nbsp;
+             
+          </ul>
+          </div>
+        </div>
+        <div class="ch2">
+           <img class="im" src="aman.jpeg" height="100px" width="100px"><br>
+           <h3>AK(Aman)</h3>
+           <p> Mern Stack Developer</p>
+           <h3>@BU</h3>
+          <i class="fa-solid fa-location-dot">&nbsp;&nbsp;</i>Bhopal, MP
+          <hr>
+          <br>
+           <div>
+          <ul style="list-style-type: none;">
+            <h3><a href="Dashboard1.html"><li><i class="fa-brands fa-dashcube">&nbsp;</i>Dashboard</li></a> </h3>&nbsp;&nbsp;
+            <h3><a href="Table.html"><li><i class="fa-solid fa-table"></i>&nbsp;Table</li></a></h3>&nbsp;&nbsp;
+            <h3><a href="Cards.html"><li><i class="fa-solid fa-table-list">&nbsp;Cards</i></li></a></h3>&nbsp;&nbsp;
+            <h3><a href="Team.html"><li><i class="fa-solid fa-people-group"></i>&nbsp;Team</li></a></h3>&nbsp;&nbsp;
+        </ul>
+      </div>
+        </div>
+        <div class="ch3"> 
+          
+             <button><a href="SignUp.html"><i class="fa-brands fa-creative-commons-sampling-plus"></i>&nbsp;Sign Up</button></a>&nbsp;
+             <button><a href="login.html"><i class="fa-solid fa-right-to-bracket"></i>&nbsp;Login</button></a>
+        </div>
+        <div class="ch4">
+            <table border="10px" >
+                <tr >
+                  <th>FirstTeam</th>
+                  <th>SecondTeam</th>
+                  <th>ThirdTeam</th>
+                  <th>LastTeam</th>
+                </tr>
+                <tr>
+                  <td>Peter</td>
+                  <td>Griffin</td>
+                  <td>Peter</td>
+                  <td>Griffin</td>
+                </tr>
+                <tr>
+                  <td>Lois</td>
+                  <td>Griffin</td>
+                  <td>Peter</td>
+                  <td>Griffin</td>
+                </tr>
+                <tr>
+                    <td>Lois</td>
+                    <td>Griffin</td>
+                    <td>Peter</td>
+                    <td>Griffin</td>
+                  </tr>
+                  <tr>
+                    <td>Lois</td>
+                    <td>Griffin</td>
+                    <td>Peter</td>
+                    <td>Griffin</td>
+                  </tr>
+              </table>
+
+        </div>
+        
+          
+        </div>
+    </div>
+</body>
+</html>

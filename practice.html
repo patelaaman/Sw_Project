@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src='main.js'></script>
+    <style>
+        *{
+            margin:0;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-around;
+            background-color: rgb(203, 136, 49);
+            color: white;
+            align-items: center;
+            padding: 30px;
+        }
+        .navbar ul li{
+            display: inline;
+            padding:20px;
+        }
+        .navbar label i{
+            display: none;
+        }
+        input{
+            display:none;
+        }
+        #demo:checked~.navbar ul{
+           display: block;
+        }
+        @media screen and (max-width:768px){
+            .navbar label{
+                display: block;
+            }
+            .navbar ul li{
+                display: block;
+                color: black;
+            }
+           
+     
+            .navbar{
+                height: 40px;
+            }
+            .navbar ul{
+                position: absolute;
+                top: 100px;
+                width: 100%;
+                background-color: rgb(197, 93, 153);
+                display: none;
+            }
+            .navbar label i{
+            display: block;
+        }
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" id="demo">
+    <nav class="navbar">
+        <h1>Logo</h1>
+
+        <ul >
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+
+        <label for="demo">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+    </nav>
+</body>
+</html>

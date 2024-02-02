@@ -1,0 +1,375 @@
+*{
+    padding:0%;
+    margin: 0%;
+    font-family:'Mulish',sans-serif;
+   
+}
+body{
+
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(246, 249, 249);
+ width: 100%;
+    padding:11px;
+    color:white;
+}
+nav p{
+    padding: 10px;
+    margin-top:10px;
+    font-size:20px;
+   
+}
+nav button{
+    
+    border-radius: 4px;
+    background-color: rgb(6, 21, 16);
+    border:none;
+    font-size: 17px;
+    color: white;
+    margin-top:4px;
+    padding: 12px 8px;
+}
+nav img{
+    width:30%;
+}
+.main{
+    background-color: rgb(217, 246, 246);
+    color:rgb(128, 115, 115);
+    color:rgb(58, 50, 50);
+    width:100%;
+    /* height:478px; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    /* padding:13px; */
+}
+.txt{
+    margin-top:80px;
+    /* margin-left:33px; */
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+.c{
+    display: flex;
+}
+.txt h1{
+       font-size:55px;
+}
+.text p{
+    font-size:22px;
+    padding:22px;
+    margin-left: 20px;
+}
+.txt .inp input{
+    width:300px;
+    height: 50px;
+    border:none;
+    border-radius: 4px;
+}
+.txt input{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5%; 
+    border: 1px solid white; 
+    height: 30px; 
+    width: 50vh; 
+    background-color: rgb(244, 249, 249);
+    padding: 10px;
+}
+.txt .c a{
+    width:100px;
+    height: 30px;
+    background-color: rgb(239, 97, 50);
+    color:aliceblue;
+    padding: 10px;
+    align-items: center;
+    border-radius: 5%; 
+   
+}
+.txt .inp button{
+    width:140px;
+    height: 60px;
+    border:none;
+    border-radius: 4px;
+    font-size:20px;
+    margin-inline: 11px;
+    background-color: rgb(239, 98, 51);
+    color:aliceblue;
+    text-decoration: solid;
+    font-style:oblique;
+    font-variant-emoji: calc(solid);
+}
+.card{
+    padding: 3px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(70, 6, 6);
+}
+.crd{
+    color: aliceblue;
+   margin-bottom: 5%;
+}
+h3{
+    padding: 10px;
+    
+}
+
+a{
+    color: black;
+}
+.Sec{
+    
+    margin-top: 100px;
+    padding:40px;
+ 
+    
+}
+.ThirdSection{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+.Sec img{
+    height: 70px;
+    width: 200px;
+}
+.co{
+    margin-top: 1px;
+    display: flex;
+}
+.co img{
+    height: 400px;
+    width: 350px;
+}
+.co1 img{
+    height: 400px;
+    width: 350px;
+   margin-top: 78px;
+}
+.ph{
+    padding-bottom: 0px;
+}
+.FourthSection{
+    background-color: black;
+    /* height:100vh; */
+    display: flex;
+    flex-wrap: wrap;
+    padding:40px;
+   color: aliceblue;
+    justify-content:space-evenly;
+  
+}
+.FourthSection h2{
+    color: rgb(78, 73, 73);
+    padding: 35px;
+}
+.sec1{
+    color:aliceblue;
+   display: inline-block;
+   justify-content: space-between;
+   
+   
+}
+.sec1 a{
+    color:aliceblue;
+    text-decoration: none;
+}
+.sec4{
+    color:aliceblue;
+    display: inline-block;
+    padding: 5%;
+}
+.sec4 img{
+    height: 70px;
+    width: 200px;
+}
+.sec3 a{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.sec2 a{
+    color: white;
+     text-decoration: none;
+}
+.sec1 ul{
+    list-style: none;
+    padding: 10%;
+}
+.sec2 ul{
+    list-style: none;
+    padding: 10%;
+}
+.sec3 ul{
+    list-style: none;
+    padding:8%;
+}
+.sec1 ul li{
+        padding: 10px;
+}
+.sec2 ul li{
+    padding: 10px;
+}
+.sec3 ul li{
+    padding: 10px;
+    list-style: none;
+}
+.br{
+    border:3px solid rgb(15, 14, 14);
+    background-color: rgb(5, 5, 5);
+    color: aliceblue;
+    padding:30px;
+}
+.fifthSection{
+     background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* height: 800vh; */
+    color: aliceblue;
+    padding: 30px;
+   
+  }
+.fifthSection a{
+    color: aliceblue;
+    text-decoration: none;
+ }
+.heading h2{
+    background-color: rgb(68, 64, 64);
+    padding: 20px;
+}
+
+
+.fifthSection ul li{
+    display: block;
+}
+.lup a{
+   
+    color: aliceblue;
+    display: flex;
+} 
+.lup{
+    height: 1vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.foot{
+    padding: 20px;
+    background-color: black;
+    color: aliceblue;
+    /* height: 10vh; */
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    justify-content: space-between;
+}
+.footer{
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+}
+label i{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    gap:30%;
+}
+.btn .cl{
+    background-color: aliceblue;
+    font-family:'Courier New', Courier, monospace ;
+    font-size: large;
+    padding: 15px;
+}
+.cl:hover{
+    color: rgb(250, 82, 40);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.cl1:hover{
+    color: rgb(233, 183, 171);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div header{
+    display: none;
+}
+input{
+    /* display:none; */
+}
+#demo:checked~div header{
+   display: block;
+}
+#demo:checked~nav img{
+    display: none;
+}
+@media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    header{
+        background-color:rgb(242, 244, 247);
+        color: rgb(100, 97, 97);
+       height: 100vh;
+       width: 100vh;
+       display: block;
+       padding: 50px;
+       
+    }
+    nav{
+        background-color:rgb(242, 244, 247);
+        color: rgb(100, 97, 97);
+       display: flex;
+       justify-content: space-between;   
+       padding: 0px;
+    }
+    h5{
+        color: rgb(239, 73, 73);
+    }
+    h2{
+        color: rgb(62, 58, 58);
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    }
+    
+    .qw{
+        margin-left: 0%;
+        padding: 0px;
+    }
+    nav div img{
+         padding: 0px;
+         height: 80px;
+         width: auto;
+        
+    }
+    .ph{
+        border: 1px solid rgb(221, 215, 215);
+        color: rgb(116, 109, 104);
+        display: block;
+        padding: 10px;
+    }
+    .ph input{
+        border: 0px solid rgb(202, 224, 231);
+        color:rgb(26, 27, 28);
+        background-color: aliceblue;
+    }
+    .log{
+        background-color: rgb(201, 100, 38);
+        color: rgb(211, 223, 233);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: 30px;
+        height: 60px;
+    }
+    .log h2{
+        color: aliceblue;
+    }
+    
+}
